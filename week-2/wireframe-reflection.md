@@ -1,5 +1,5 @@
 
-![Wireframe](/imgs/wireframe-index.png)
+![Wireframe](imgs/wireframe-index.png)
 
 
 What is a wireframe?
