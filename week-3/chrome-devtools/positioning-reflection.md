@@ -1,11 +1,11 @@
 ![Change the colors](imgs/change_the_colors.png)
-![Column](imgs/column.png)
-![Row](imgs/row.png)
-![Equidistant](equidistant.png)
-![Squares](imgs/wireframe-index.png)
-![Footer](imgs/wireframe-index.png)
-![Header](imgs/wireframe-index.png)
-![Sidebar](imgs/wireframe-index.png)
+![Column](imgs/Column.png)
+![Row](imgs/Row.png)
+![Equidistant](imgs/Equidistant.png)
+![Squares](imgs/Squares.png)
+![Footer](imgs/Footer.png)
+![Header](imgs/Header.png)
+![Sidebar](imgs/sidebar.png)
 ![Get_creative](imgs/get_creative.png)
 
 
