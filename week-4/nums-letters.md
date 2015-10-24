@@ -18,3 +18,6 @@ puts 24*7*4*12
 ```ruby
 puts 60*24*7*4*12*10
 ```
+
+
+https://github.com/igorkaz001/phase-0/blob/master/week-4/defining-variables.rb
