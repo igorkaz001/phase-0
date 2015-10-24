@@ -1,3 +1,4 @@
+##Release 1: summarize
 What does puts do?
 Stands for put string, meaning display output in concole in form of a string. 
 
@@ -14,10 +15,36 @@ Hours in a year:
 ```ruby
 puts 24*7*4*12
 ```
-
+Minutes in a decade:
 ```ruby
 puts 60*24*7*4*12*10
 ```
 
 
 https://github.com/igorkaz001/phase-0/blob/master/week-4/defining-variables.rb
+
+https://github.com/igorkaz001/phase-0/blob/master/week-4/basic-math.rb
+
+https://github.com/igorkaz001/phase-0/blob/master/week-4/simple-string.rb
+
+
+##Release 7: Reflect 
+
+How does Ruby handle addition, subtraction, multiplication, and division of numbers?
+It handles it just like a calculator using the same symbols. Nothing noteworthy there. 
+
+What is the difference between integers and floats?
+An integer is a round whole number, while a float has a decimal point. 
+
+What is the difference between integer and float division?
+Integer division will round the answer down to the nearest whole number, while float division will give a more accurate answer with the decimal point. 
+
+What are strings? Why and when would you use them?
+Strings are collection of characters tied together. You can use them to represent characters, letters, sentences, and numbers. you would use them to assign a value to a variable. 
+
+What are local variables? Why and when would you use them?
+Local variables start with a lowercase and are used within a single method or within a single class. I believe you would use them when defining new variable for the program since local variables are more commonly used that global variables. 
+
+How was this challenge? Did you get a good review of some of the basics?
+Yes, it allowed me to jump back into ruby and remind me of the basics. It was fairly painless. 
+
