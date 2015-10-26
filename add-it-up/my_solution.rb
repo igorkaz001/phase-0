@@ -4,13 +4,13 @@
 # include it in this file. Also make sure everything that isn't code
 # is commented in the file.
 
-# I worked on this challenge [by myself, with: ].
-# with Clinton Weber
+# I worked on this challenge by myself.
+
 
 # 0. total Pseudocode
 # make sure all pseudocode is commented out!
 
-# Input: array
+# Input: array of numbers
 # Output: sum of array
 # Steps to solve the problem.
 # define a method called total with argument of array
@@ -34,17 +34,35 @@ end
 
 # 3. total refactored solution
 
-
+def total (array)
+	sum=0
+	array.inject{|sum,n| sum + n}
+	
+	return sum
+end
 
 # 4. sentence_maker pseudocode
 # make sure all pseudocode is commented out!
-# Input:
-# Output:
+# Input: array of strings 
+# Output: a sentence
 # Steps to solve the problem.
-
+# define a sentence_maker method
+# pull individual objects out of array and put them in one string
+# capitalize the string
+# return the string
 
 # 5. sentence_maker initial solution
 
+def sentence_maker (array)
+	sentence = ""
+	array.each do |n| sentence << n.to_s << " "
+	end
+	sentence.capitalize!
+	sentence << "."
+	return sentence
+end
 
 
 # 6. sentence_maker refactored solution
+
+# Coudn't  find any methods to refactor this code. 

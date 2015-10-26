@@ -21,23 +21,23 @@ describe 'total' do
   end
 end
 
-# describe 'sentence_maker' do
-#   let(:first_sentence) {["all", "my", "socks", "are", "dirty"]}
-#   let(:second_sentence) {["alaska", "has", "over", 586, "thousand", "miles"]}
+describe 'sentence_maker' do
+  let(:first_sentence) {["all", "my", "socks", "are", "dirty"]}
+  let(:second_sentence) {["alaska", "has", "over", 586, "thousand", "miles"]}
 
-#   it "is defined as a method" do
-#     expect(defined? sentence_maker).to eq 'method'
-#   end
+  it "is defined as a method" do
+    expect(defined? sentence_maker).to eq 'method'
+  end
 
-#   it "requires a single argument" do
-#      expect(method(:sentence_maker).arity).to eq 1
-#   end
+  it "requires a single argument" do
+     expect(method(:sentence_maker).arity).to eq 1
+  end
 
-#   it "returns the grammatically correct sentence of the first sentence" do
-#     expect(sentence_maker(first_sentence)).to eq "All my socks are dirty."
-#   end
+  it "returns the grammatically correct sentence of the first sentence" do
+    expect(sentence_maker(first_sentence)).to eq "All my socks are dirty."
+  end
 
-#   it "returns the grammatically correct sentence of the second sentence" do
-#     expect(sentence_maker(second_sentence)).to eq "Alaska has over 586 thousand miles."
-#   end
-# end
+  it "returns the grammatically correct sentence of the second sentence" do
+    expect(sentence_maker(second_sentence)).to eq "Alaska has over 586 thousand miles."
+  end
+end
