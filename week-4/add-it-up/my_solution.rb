@@ -62,6 +62,7 @@ def sentence_maker (array)
 	return sentence
 end
 
+#rspec returned error because the "." had a space before the last letter of the sentence. otherwise it looked formated. 
 
 # 6. sentence_maker refactored solution
 
