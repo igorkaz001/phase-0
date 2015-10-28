@@ -68,4 +68,4 @@ end
 
 # 6. sentence_maker refactored solution
 
- 
+ # Coudn't  find any methods to refactor this code.
