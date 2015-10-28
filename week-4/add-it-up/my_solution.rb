@@ -34,12 +34,14 @@ end
 
 # 3. total refactored solution
 
-def total (array)
-	sum=0
-	array.inject{|sum,n| sum + n}
+# def total (array)
+# 	sum=0
+# 	array.inject{|sum,n| sum + n}
 	
-	return sum
-end
+# 	return sum
+# end
+
+#I dont think this version works. That's why I comment it out
 
 # 4. sentence_maker pseudocode
 # make sure all pseudocode is commented out!
