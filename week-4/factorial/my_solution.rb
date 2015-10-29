@@ -13,7 +13,7 @@
 # Your Solution Below
 def factorial(number)
   	 if (number >= 2)
-  		result.each do |number| number *=
+  		result.each do |number| number * (number -1)
   		number -=
   	end
 
