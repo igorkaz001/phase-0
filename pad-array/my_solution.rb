@@ -23,7 +23,7 @@ end
 end
 
 
-def pad(array, min_size, value = nil) #destructive
+def pad(array, min_size, value = nil) #non-destructive
   if array.count >= min_size
     return array
   else
