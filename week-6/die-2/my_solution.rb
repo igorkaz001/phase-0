@@ -70,7 +70,7 @@ class Die #defines a Die class
   def initialize(labels) #defines a customary initialize class to raise any arguments and declare instance variables
   	if labels.empty? #check if the array passed in is empty
   		raise ArgumentError.new ("please enter more than  side of die") #if it is empty, raise this argument
-  	else #otherwise. I belive that if the instance variables, which take up memory, are only created if the array passes the argumenterror above, it would prevent memory to be used for useless variables that will never be used. 
+  	else #otherwise. I belive that if the instance variables, which take up memory, are only created if the array passes the argumenterror above, it would prevent memory to be used for useless variables. 
   		@labels = labels #declare the following instance variables to be used by any methods in this class
   		@rolled = nil
   	end
@@ -97,3 +97,18 @@ die = Die.new(['A', 'B', 'C', 'D', 'E', 'F']) #creates an instatnce of the Die c
 
 
 # Reflection
+=begin
+What were the main differences between this die class and the last one you created in terms of implementation? Did you need to change much logic to get this to work?
+The main difference was geting a randomly generated string element out of the passed array as opposed to the original die class where we simply generated random number. 
+
+What does this exercise teach you about making code that is easily changeable or modifiable? 
+It taught me to make methods as small as possible because i can use them again with a slight modificaton to account for chaning object classes. 
+
+
+What new methods did you learn when working on this challenge, if any?
+I learned .sample method for array. It generates a random element in the array. 
+
+What concepts about classes were you able to solidify in this challenge?
+I was able to practice with the initialize method that every class needs to have. 
+
+=end
