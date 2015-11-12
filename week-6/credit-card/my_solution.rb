@@ -6,15 +6,23 @@
 
 # Pseudocode
 
-# Input:
-# Output:
-# Steps:
+# Input: array
+# Output: boolean
+# Steps: 
+=begin
+-define initialize method for argument error and instance variables
+-define check card method
+-reverse the string because we are asked to start doubling every other number from the penultimate number
+-double every other number in the string
+-separate 2 digit numbers into single digits in the array
+-see if the sum of array is divisible by 10
+-output ture or false
+=end
 
 
-# Initial Solution
+# Initial and Refactored Solution
 
-# Don't forget to check on initialization for a card length
-# of exactly 16 digits
+
 
 
 class CreditCard
@@ -55,8 +63,6 @@ end
     p false
   end
 end
-  
-  
 end
 
 # number = CreditCard.new(4563960122001999)
@@ -106,26 +112,15 @@ end
 # number.double_numbers
 # number.add_numbers
 
-
-
-
-# Refactored Solution
-
-
-
-
-
-
-
-
 # Reflection
 =begin
 What was the most difficult part of this challenge for you and your pair?
-
+we initially struggled with separating the 2 digit doubled numbers into indvidual integers
 
 What new methods did you find to help you when you refactored?
+We used the slice method in the refactor.
 
-`
 What concepts or learnings were you able to solidify in this challenge?
+I was able to practice using .map method which is very complicated for me. 
 
 =end
