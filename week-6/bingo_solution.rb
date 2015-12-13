@@ -1,4 +1,9 @@
 
+
+
+#NOTE: I was not able to progress far on this challange. Uploaded what I had. 
+
+
 # A Nested Array to Model a Bingo Board SOLO CHALLENGE
 
 # I spent [#] hours on this challenge.
@@ -50,7 +55,10 @@ board = [[47, 44, 71, 8, 88],
 new_game = BingoBoard.new(board)
 new_game.bingo.map { |game_board| puts game_board.inspect }
     
+
+#     @bingo_board.each { |row|   #example found on the web to interate through dual layer arrays aka sub-arrays
 #     @bingo_board.each { |row|
+
 #   row.each { |column|
 #       puts column  
 #   }
@@ -67,6 +75,8 @@ new_game.bingo.map { |game_board| puts game_board.inspect }
 # elsif @bingo == "I"
 #   check every second number in the array
   
+
+
   # Refactored Solution
   
   
