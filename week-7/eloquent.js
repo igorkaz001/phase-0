@@ -2,6 +2,7 @@
 
 // Run this file in your terminal using `node my_solution.js`. Make sure it works before moving on!
 
+
 // Program Structure
 // Write your own variable and do something to it.
 var igor = "i" + "gor"
