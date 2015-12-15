@@ -37,6 +37,6 @@ var min = function(a,b){
 var me = new object ();
 me.name = "Igor";
 me.age = "26";
-me.foods = "pizza", "hot dogs", "ice cram";
-me.quirk = "the grammar in this file is terrible";
+me.foods = "pizza", "hot dogs", "ice cream";
+me.quirk = "i like pizza hot dogs and ice cream, but not in that order.";
 
